@@ -1,0 +1,58 @@
+﻿Build started 2014-12-08 오후 12:24:29.
+     1>Project "d:\VC\NetServer\NetServer\NetServer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WIN32_LEAN_AND_MEAN /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt MySQLProxy.cpp NetServer.cpp
+         MySQLProxy.cpp
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(56): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\vc\netserver\netserver\mysqlproxy.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         Generating Code...
+         Compiling...
+         NetServer.cpp
+     1>d:\vc\netserver\netserver\inifile.h(110): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vc\netserver\netserver\netserver.cpp(123): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vc\netserver\netserver\netserver.cpp(239): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(824) : see declaration of '_splitpath'
+     1>d:\vc\netserver\netserver\netserver.cpp(240): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(769) : see declaration of '_makepath'
+     1>d:\vc\netserver\netserver\netserver.cpp(241): warning C4996: '_makepath': This function or variable may be unsafe. Consider using _makepath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(769) : see declaration of '_makepath'
+     1>d:\vc\netserver\netserver\netserver.cpp(244): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\vc\netserver\netserver\netserver.cpp(328): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\NetServer.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\NetServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\NetServer.lib" /MACHINE:X86 /SAFESEH .\Debug\iniFile.obj
+         .\Debug\main.obj
+         .\Debug\Monitor.obj
+         .\Debug\MySQLProxy.obj
+         .\Debug\NetServer.obj
+         .\Debug\SockAddr.obj
+         .\Debug\TcpListener.obj
+         .\Debug\TcpPeer.obj
+         .\Debug\TcpServer.obj
+         .\Debug\TcpServer_Acceptor.obj
+         .\Debug\TcpServer_Connector.obj
+         .\Debug\TcpServer_Dispatcher.obj
+         .\Debug\Thread.obj
+     1>iniFile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         NetServer.vcxproj -> d:\VC\NetServer\NetServer\.\Debug\NetServer.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\NetServer.bsc" .\Debug\iniFile.sbr .\Debug\main.sbr .\Debug\Monitor.sbr .\Debug\MySQLProxy.sbr .\Debug\NetServer.sbr .\Debug\SockAddr.sbr .\Debug\TcpListener.sbr .\Debug\TcpPeer.sbr .\Debug\TcpServer.sbr .\Debug\TcpServer_Acceptor.sbr .\Debug\TcpServer_Connector.sbr .\Debug\TcpServer_Dispatcher.sbr .\Debug\Thread.sbr
+     1>Done Building Project "d:\VC\NetServer\NetServer\NetServer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.17

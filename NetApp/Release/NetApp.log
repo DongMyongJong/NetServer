@@ -1,0 +1,40 @@
+﻿Build started 2014-08-24 오전 6:08:14.
+     1>Project "d:\VC\NetServer\NetApp\NetApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D WIN32_LEAN_AND_MEAN /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc110.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt iniFile.cpp
+         iniFile.cpp
+     1>d:\vc\netserver\netapp\iniFile.h(110): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>iniFile.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>iniFile.cpp(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>iniFile.cpp(258): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'vsprintf'
+     1>iniFile.cpp(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>iniFile.cpp(295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : see declaration of 'sprintf'
+     1>iniFile.cpp(323): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : see declaration of 'sscanf'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\NetApp.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\NetApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\NetApp.lib" /MACHINE:X86 /SAFESEH .\Release\iniFile.obj
+         .\Release\main.obj
+         .\Release\Monitor.obj
+         .\Release\MySQLProxy.obj
+         .\Release\NetServer.obj
+         .\Release\SockAddr.obj
+         .\Release\TcpListener.obj
+         .\Release\TcpPeer.obj
+         .\Release\TcpServer.obj
+         .\Release\TcpServer_Acceptor.obj
+         .\Release\TcpServer_Connector.obj
+         .\Release\TcpServer_Dispatcher.obj
+         .\Release\Thread.obj
+         NetApp.vcxproj -> d:\VC\NetServer\NetApp\.\Release\NetApp.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Release\NetApp.bsc" .\Release\iniFile.sbr .\Release\main.sbr .\Release\Monitor.sbr .\Release\MySQLProxy.sbr .\Release\NetServer.sbr .\Release\SockAddr.sbr .\Release\TcpListener.sbr .\Release\TcpPeer.sbr .\Release\TcpServer.sbr .\Release\TcpServer_Acceptor.sbr .\Release\TcpServer_Connector.sbr .\Release\TcpServer_Dispatcher.sbr .\Release\Thread.sbr
+     1>Done Building Project "d:\VC\NetServer\NetApp\NetApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07

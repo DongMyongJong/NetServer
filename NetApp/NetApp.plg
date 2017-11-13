@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "WIN32_LEAN_AND_MEAN" /FR"Debug/" /Fp"Debug/NetApp.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\NetApp\MySQLProxy.cpp"
+"D:\VC\NetApp\NetServer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/NetApp.pdb" /debug /machine:I386 /out:"Debug/NetApp.exe" /pdbtype:sept 
+.\Debug\iniFile.obj
+.\Debug\main.obj
+.\Debug\Monitor.obj
+.\Debug\MySQLProxy.obj
+.\Debug\NetServer.obj
+.\Debug\SockAddr.obj
+.\Debug\TcpListener.obj
+.\Debug\TcpPeer.obj
+.\Debug\TcpServer.obj
+.\Debug\TcpServer_Acceptor.obj
+.\Debug\TcpServer_Connector.obj
+.\Debug\TcpServer_Dispatcher.obj
+.\Debug\Thread.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37D.tmp"
+<h3>Output Window</h3>
+Compiling...
+MySQLProxy.cpp
+NetServer.cpp
+d:\vc\netapp\inifile.h(110) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37F.tmp" with contents
+[
+/nologo /o"Debug/NetApp.bsc" 
+.\Debug\iniFile.sbr
+.\Debug\main.sbr
+.\Debug\Monitor.sbr
+.\Debug\MySQLProxy.sbr
+.\Debug\NetServer.sbr
+.\Debug\SockAddr.sbr
+.\Debug\TcpListener.sbr
+.\Debug\TcpPeer.sbr
+.\Debug\TcpServer.sbr
+.\Debug\TcpServer_Acceptor.sbr
+.\Debug\TcpServer_Connector.sbr
+.\Debug\TcpServer_Dispatcher.sbr
+.\Debug\Thread.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP37F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NetApp.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
